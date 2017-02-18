@@ -1,0 +1,72 @@
+h1{
+	margin: 0;
+	text-align:center;
+	font-size: 3em;
+	font-family: Verdana, Arial, "Times New Roman"; /*Uses verdana, if there's no verdana it goes to arial, etc.*/
+
+}
+
+h2{
+	margin: 0;
+	text-align:center;
+	font-size: 2em;
+	font-family: Verdana, Arial, "Times New Roman";
+}
+
+h3{
+	text-align:center;
+	font-size: 4em;
+	font-family: Verdana, Arial, "Times New Roman";
+	margin: 0;
+}
+
+p{
+	margin: 5em;
+}
+
+/*body{
+	background-color: #ccffff;
+}*/
+
+ul {
+	list-style-type: none;
+	margin: 0;
+  padding: 0;
+	top: 0;
+	left: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(200, 200, 200);
+	position: fixed; /*Fixes the nav bar to the top of the page*/
+}
+
+li {
+    float: left;
+}
+
+li:last-child{
+	float: right;
+	background-color: rgb(150, 150, 150);
+}
+
+/*Refers to links in the <li>, which is in <ul>, which is for the navigation bar*/
+li a{
+	display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	font-family: Verdana, Arial, "Times New Roman"; /*Uses verdana, if there's no verdana it goes to arial, etc.*/
+}
+
+/*Change the link color on hover*/
+li a:hover{
+	background-color: #555;
+	color: white;
+}
+
+/*Highlights the active page the user is on*/
+li a:active {
+    background-color: #4CAF50;
+    color: white;
+}
